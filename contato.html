@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio - Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Emerson Pirovano</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Sobre Mim</a></li>
+                    <li><a href="formacao.html">Formação</a></li>
+                    <li><a href="portfolio.html">Portfólio</a></li>
+                    <li><a href="contato.html" class="active">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section>
+                <h2>Entre em Contato</h2>
+                <p>Sinta-se à vontade para me enviar uma mensagem através do formulário abaixo.</p>
+                
+                <form action="mailto:meu@email.com" method="post" enctype="text/plain"> <!--Alterar para o email que será utilizado-->
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="Email" required>
+                    </div>
+                     <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="Mensagem" rows="5" required></textarea>
+                    </div>
+                        <button type="submit">Enviar Mensagem</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 - Emerson Pirovano. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
